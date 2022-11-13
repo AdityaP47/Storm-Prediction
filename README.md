@@ -8,7 +8,7 @@ This document is intended to be easy to understand for every tester or developer
 	Below mentioned are few definitions/terminologies which are kept in mind while building this project.
 EF-Scale:Enhanced Fujita Scale is our main parameter for dependent variable. The scale is used to analyse/measure the severity of Storm based on the damage they produce. EF-scale uses numbers ranging from 0 to 5 to know the impact of    storms/tornadoes. Wind speed is positively correlated with EF-scale points and thus EF - scale can be classified by wind  parameter as shown below:
 
-Fig 7 : Depicting the wind speed range associated with each point of EF-Scale
+
 Om: This column in the dataset tells us about the count number of tornadoes. These numbers are assigned based on the time of occurrence of each event.
 Yr,Mo,Dy,Tz: Year, Month , Date and Time Zone in the dataset columns respectively. 
 F : F-scale values, which turn into EF-scale values post January of 2007 , since previously EF-scale wasn’t introduced.
@@ -26,8 +26,7 @@ Unknown
 500000-5000000$
 5000000-50000000$
 50000000-500000000$
->5 Billion $
-“Loss”  column value
+
 0
 1
 2
@@ -37,7 +36,7 @@ Unknown
 6
 7
 8
-9
+
 
  
 Slat & Slon : Starting Latitude and Longitude of Storm.
